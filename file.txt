@@ -1,0 +1,53 @@
+Jump to ContentAPI Referencev5.0API ReferenceAPI ReferenceMoon (Dark Mode)Sun (Light Mode)v5.0SearchJUMP TOOverviewStart your Cloud CommunicationSMSSend SMSpostAdd TemplatepostAdd Template VersionpostGet Template VersionsgetMark DefaultgetOTPSendOTPpostVerify OTPgetResend OTPgetEmailEmail ValidationpostSend Emails using TemplatepostCreate New TemplatepostTemplate Css InlinerpostWhatsAppTemplatepostSend message (once session started)postTo Fetch WhatsApp NumbergetGet TemplatesgetInteractive WA with ButtonspostInteractive WA with ListpostSingle Product CatalogpostMultiple Product CatalogpostCampaignLaunch CampaignpostSegmento ApisCreate/Update ContactpostFilter/Search ContactpostDelete - ContactsdeleteGet PhoneBook FieldsgetVoiceSend Voice SMSpostExecute an IVR/Flow to a numberpostClick to call or 2-way callpostRcs - Bulk MessageRcs - Calendar EventpostRcs - CarouselpostRcs - DialpostRcs - MediapostRcs - Open UrlpostRcs - Rich CardpostRcs - Share LocationpostRcs - Suggested RepliespostRcs - TemplatepostRcs - TextpostRcs - View LocationpostPowered by&nbsp;JUMP TOOverviewStart your Cloud CommunicationSMSSend SMSpostAdd TemplatepostAdd Template VersionpostGet Template VersionsgetMark DefaultgetOTPSendOTPpostVerify OTPgetResend OTPgetEmailEmail ValidationpostSend Emails using TemplatepostCreate New TemplatepostTemplate Css InlinerpostWhatsAppTemplatepostSend message (once session started)postTo Fetch WhatsApp NumbergetGet TemplatesgetInteractive WA with ButtonspostInteractive WA with ListpostSingle Product CatalogpostMultiple Product CatalogpostCampaignLaunch CampaignpostSegmento ApisCreate/Update ContactpostFilter/Search ContactpostDelete - ContactsdeleteGet PhoneBook FieldsgetVoiceSend Voice SMSpostExecute an IVR/Flow to a numberpostClick to call or 2-way callpostRcs - Bulk MessageRcs - Calendar EventpostRcs - CarouselpostRcs - DialpostRcs - MediapostRcs - Open UrlpostRcs - Rich CardpostRcs - Share LocationpostRcs - Suggested RepliespostRcs - TemplatepostRcs - TextpostRcs - View LocationpostPowered by&nbsp;Start your Cloud CommunicationStep-by-step guide to set up and start your Cloud Communication with MSG91
+MSG91 is a CPaaS platform to help you communicate with your users on multiple channels that provides secure and robust APIs and ready-to-use tools.
+Click here for Login/Signup- https://control.msg91.com/signin/
+
+I. Configure the channel(s) that you would like to use
+Communication Channels-
+a. SMS
+b. WhatsApp
+c. Email
+d. Voice
+a. SMS
+i) From the Sender ID approval process to creating templates and sending SMS - Follow its doc here
+b. WhatsApp
+i) WhatsApp needs some steps to be followed on the Meta side, find its guide here.
+ii) Sync Templates in the MSG91 account and use Whatsapp API - HelpDoc
+c. Email
+i) For full Email configuration from adding a domain to sending Email - Follow its doc here
+d. Voice
+i) From creating templates to sending voice- Follow its doc here
+For any help in the below configuration, take help from our tech support team https://calendly.com/support--msg91
+
+II. There are 5 services to use the above-configured channels
+a. Hello - Two-way communication via Tickets, Live Chat, Bot &amp; Help Centre - HelpDoc
+Use Hello when you want to-
+i) Manage your customer email tickets
+ii) Facilitate your customer with live chat and view its analytics
+iii) Create internal teams to manage email tickets and live chat
+iv) Connect your customer on call or on-screen sharing
+v) Manage your Help articles/docs and publish them for customers
+b. Segmento (Contact Management system) - HelpDoc
+Step by Step guide to start Segmento and utilize it fully-
+i) Update your existing user data by CSV.
+ii) Add API to bring new users and new user fields/attributes/events.
+iii) Create Segments
+iv) Send messages over SMS, WhatsApp, Email, etc. (run campaign) manually to all users of a particular segment or Automate based on user falls in any segment.
+c. OTP verification service (Two-factor authentication)
+​Use the Send OTP API for sending OTP SMS and using voice as backup in retry with the Resend OTP API and verifying the OTP via the Verify OTP API.
+​Or you can integrate the Login with OTP Widget on your end and all these 3 APIs (Send, Resend, and Verify) will be called automatically. HelpDoc
+d. Automate via RESTful APIs
+​Integrate a single Campaign API for all channels - HelpDoc [Recommended]
+e. Integrate APIs separately for every channel -
+For very specific use case which is not being solved by Campaign APIs
+Use dedicated APIs -
+​i) For SMS
+ii) For Email
+iii) For Whatsapp
+
+SMSAddons
+Our team and some of the independent developers have built few add-ons/plugins for some of the frameworks like WHMCS, Magento, Wordpress. For details, visit here.
+
+Available SDKs
+1.  iOS
+2.  Android
