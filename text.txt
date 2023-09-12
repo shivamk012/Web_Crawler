@@ -1,0 +1,139 @@
+NG_BUNDLES = ["https://cdn.readme.io/public/js/hub2.5c21d49a405c2fc64a2e.js","https://cdn.readme.io/public/js/runtime.77d9745e5833cd15c512.js","https://cdn.readme.io/public/js/vendors.f57bb9df8a16b3bbb681.js"];Jump to ContentAPI Referencev5.0API ReferenceAPI ReferenceMoon (Dark Mode)Sun (Light Mode)v5.0SearchJUMP TOOverviewStart your Cloud CommunicationSMSSend SMSpostAdd TemplatepostAdd Template VersionpostGet Template VersionsgetMark DefaultgetOTPSendOTPpostVerify OTPgetResend OTPgetEmailEmail ValidationpostSend Emails using TemplatepostCreate New TemplatepostTemplate Css InlinerpostWhatsAppTemplatepostSend message (once session started)postTo Fetch WhatsApp NumbergetGet TemplatesgetInteractive WA with ButtonspostInteractive WA with ListpostSingle Product CatalogpostMultiple Product CatalogpostCampaignLaunch CampaignpostSegmento ApisCreate/Update ContactpostFilter/Search ContactpostDelete - ContactsdeleteGet PhoneBook FieldsgetVoiceSend Voice SMSpostExecute an IVR/Flow to a numberpostClick to call or 2-way callpostRcs - Bulk MessageRcs - Calendar EventpostRcs - CarouselpostRcs - DialpostRcs - MediapostRcs - Open UrlpostRcs - Rich CardpostRcs - Share LocationpostRcs - Suggested RepliespostRcs - TemplatepostRcs - TextpostRcs - View LocationpostPowered by JUMP TOOverviewStart your Cloud CommunicationSMSSend SMSpostAdd TemplatepostAdd Template VersionpostGet Template VersionsgetMark DefaultgetOTPSendOTPpostVerify OTPgetResend OTPgetEmailEmail ValidationpostSend Emails using TemplatepostCreate New TemplatepostTemplate Css InlinerpostWhatsAppTemplatepostSend message (once session started)postTo Fetch WhatsApp NumbergetGet TemplatesgetInteractive WA with ButtonspostInteractive WA with ListpostSingle Product CatalogpostMultiple Product CatalogpostCampaignLaunch CampaignpostSegmento ApisCreate/Update ContactpostFilter/Search ContactpostDelete - ContactsdeleteGet PhoneBook FieldsgetVoiceSend Voice SMSpostExecute an IVR/Flow to a numberpostClick to call or 2-way callpostRcs - Bulk MessageRcs - Calendar EventpostRcs - CarouselpostRcs - DialpostRcs - MediapostRcs - Open UrlpostRcs - Rich CardpostRcs - Share LocationpostRcs - Suggested RepliespostRcs - TemplatepostRcs - TextpostRcs - View LocationpostPowered by Start your Cloud CommunicationStep-by-step guide to set up and start your Cloud Communication with MSG91
+MSG91 is a CPaaS platform to help you communicate with your users on multiple channels that provides secure and robust APIs and ready-to-use tools.
+Click here for Login/Signup- https://control.msg91.com/signin/
+
+I. Configure the channel(s) that you would like to use
+Communication Channels-
+a. SMS
+b. WhatsApp
+c. Email
+d. Voice
+a. SMS
+i) From the Sender ID approval process to creating templates and sending SMS - Follow its doc here
+b. WhatsApp
+i) WhatsApp needs some steps to be followed on the Meta side, find its guide here.
+ii) Sync Templates in the MSG91 account and use Whatsapp API - HelpDoc
+c. Email
+i) For full Email configuration from adding a domain to sending Email - Follow its doc here
+d. Voice
+i) From creating templates to sending voice- Follow its doc here
+For any help in the below configuration, take help from our tech support team https://calendly.com/support--msg91
+
+II. There are 5 services to use the above-configured channels
+a. Hello - Two-way communication via Tickets, Live Chat, Bot & Help Centre - HelpDoc
+Use Hello when you want to-
+i) Manage your customer email tickets
+ii) Facilitate your customer with live chat and view its analytics
+iii) Create internal teams to manage email tickets and live chat
+iv) Connect your customer on call or on-screen sharing
+v) Manage your Help articles/docs and publish them for customers
+b. Segmento (Contact Management system) - HelpDoc
+Step by Step guide to start Segmento and utilize it fully-
+i) Update your existing user data by CSV.
+ii) Add API to bring new users and new user fields/attributes/events.
+iii) Create Segments
+iv) Send messages over SMS, WhatsApp, Email, etc. (run campaign) manually to all users of a particular segment or Automate based on user falls in any segment.
+c. OTP verification service (Two-factor authentication)
+​Use the Send OTP API for sending OTP SMS and using voice as backup in retry with the Resend OTP API and verifying the OTP via the Verify OTP API.
+​Or you can integrate the Login with OTP Widget on your end and all these 3 APIs (Send, Resend, and Verify) will be called automatically. HelpDoc
+d. Automate via RESTful APIs
+​Integrate a single Campaign API for all channels - HelpDoc [Recommended]
+e. Integrate APIs separately for every channel -
+For very specific use case which is not being solved by Campaign APIs
+Use dedicated APIs -
+​i) For SMS
+ii) For Email
+iii) For Whatsapp
+
+SMSAddons
+Our team and some of the independent developers have built few add-ons/plugins for some of the frameworks like WHMCS, Magento, Wordpress. For details, visit here.
+
+Available SDKs
+1.  iOS
+2.  Androidvar is_hub = true;
+var is_hub2 = true;
+var is_hub_edit = true;
+[2458,1,3257,3393,1856,1560,7392,1013,772,3279,4314,6651,5811,9351,4670,9097,6427,4010,5416,7452,9509,8872,7474,442,788,2216,6683,9488,8196,6952,3337,7437,6292,8563,1939,3894,4002,6605,6665,1896,6602,148,7768,6929,5144,7584,7453,7762,2635,7898,1132,10,9496,9072,7389,1083,5079,5858,4141,6842,9010,2926,8011,3879,1730,428,7667,295,748,9556,5443,2647,7815,4022,1414,439,2332,4196,1217,7023,9502,2642]{"namedChunks":["SuperHub","Header","routes-PageNotFound","Footer","routes-Reference","Editor","core-icons-x-circle-svg","core-icons-suggested-edits-svg","core-icons-link-svg","core-icons-heading-1-svg","core-icons-heading-2-svg","core-icons-heading-3-svg","core-icons-quotes-svg","core-icons-callout-success-svg","core-icons-callout-info-svg","core-icons-callout-warning-svg","core-icons-callout-error-svg","core-icons-list-svg","core-icons-numbered-list-svg","core-icons-check-square-svg","core-icons-code-svg","core-icons-minus-svg","core-icons-image-svg","core-icons-recipes-svg","core-icons-table-svg","core-icons-youtube-svg","core-icons-github-svg","core-icons-file-svg","core-icons-jsfiddle-svg","core-icons-maximize-svg","core-icons-plus-svg","core-icons-recycle-svg","core-icons-edit-2-svg","routes-Changelog","List","CustomPage","routes-Doc","routes-Landing","core-icons-arrow-right-svg","core-icons-more-vertical-svg","core-icons-chevron-down-svg","routes-Discuss","core-icons-trending-up-svg","core-icons-star-svg","routes-Tutorials","core-icons-arrow-up-right-svg","Page","Post","routes-CustomPage","New","core-icons-key-svg","routes-Suggestions-ngz-Header","ngz"]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
