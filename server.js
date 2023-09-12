@@ -1,4 +1,5 @@
 const express = require('express');
+const {parse, stringify, toJSON, fromJSON} = require('flatted')
 
 const app = express();
 
@@ -9,7 +10,8 @@ let obj = {
 obj.location = obj;
 
 app.get('/' , (req , res) => {
-    res.send(obj);
+    let a = stringify(obj);
+    res.send(a);
 })
 
 app.listen(5500)
